@@ -17,12 +17,6 @@ class Song < ActiveRecord::Base
     else
       drake.songs << self
     end
-    
-    # if Artist.where(:name => "Drake").blank?
-    #   drake = Artist.create(name: "Drake")
-    #   self.artist = drake
-    # else 
-    # end
   end
   
 end
